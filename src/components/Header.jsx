@@ -5,7 +5,7 @@ import Menutop from '../images/menu-top-xs.png';
 function Header() {
     return (
         <div className="App-header">
-            <div>
+            <div className="toplogos">
                 <img src={IHLogo} alt="IHLogo"/>
                 <img src={Menutop} alt="menu"/>
             </div>
@@ -16,8 +16,8 @@ function Header() {
                     the most popular frontend library,
                     and become a super Ninja developer
                 </p>
+                <button type="button" className="btn btn-light ">Awesome!</button>
             </div>
-            <button type="button" className="btn btn-light leftalign">Awesome!</button>
         </div>
       
     );
